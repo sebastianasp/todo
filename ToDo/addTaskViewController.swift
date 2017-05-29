@@ -10,13 +10,18 @@ import UIKit
 
 class addTaskViewController: UIViewController {
 
+    @IBOutlet weak var addTextTextField: UITextField!
+    @IBOutlet weak var importantSwitch: UISwitch!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
- 
+ @IBAction func addTasks(_ sender: Any) {
+    }
 
 
 
