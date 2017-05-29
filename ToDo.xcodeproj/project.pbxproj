@@ -13,6 +13,8 @@
 		51FED5321EDCB9930007FD82 /* ToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51FED5301EDCB9930007FD82 /* ToDo.xcdatamodeld */; };
 		51FED5341EDCB9930007FD82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51FED5331EDCB9930007FD82 /* Assets.xcassets */; };
 		51FED5371EDCB9930007FD82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FED5351EDCB9930007FD82 /* LaunchScreen.storyboard */; };
+		51FED53F1EDCBC580007FD82 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FED53E1EDCBC580007FD82 /* Task.swift */; };
+		51FED5411EDCC0960007FD82 /* addTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FED5401EDCC0960007FD82 /* addTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		51FED5331EDCB9930007FD82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51FED5361EDCB9930007FD82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51FED5381EDCB9930007FD82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51FED53E1EDCBC580007FD82 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		51FED5401EDCC0960007FD82 /* addTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				51FED5291EDCB9930007FD82 /* AppDelegate.swift */,
 				51FED52B1EDCB9930007FD82 /* ViewController.swift */,
+				51FED5401EDCC0960007FD82 /* addTaskViewController.swift */,
 				51FED52D1EDCB9930007FD82 /* Main.storyboard */,
+				51FED53E1EDCBC580007FD82 /* Task.swift */,
 				51FED5331EDCB9930007FD82 /* Assets.xcassets */,
 				51FED5351EDCB9930007FD82 /* LaunchScreen.storyboard */,
 				51FED5381EDCB9930007FD82 /* Info.plist */,
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51FED5411EDCC0960007FD82 /* addTaskViewController.swift in Sources */,
+				51FED53F1EDCBC580007FD82 /* Task.swift in Sources */,
 				51FED52C1EDCB9930007FD82 /* ViewController.swift in Sources */,
 				51FED5321EDCB9930007FD82 /* ToDo.xcdatamodeld in Sources */,
 				51FED52A1EDCB9930007FD82 /* AppDelegate.swift in Sources */,
