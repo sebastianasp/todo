@@ -60,5 +60,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBAction func plusTapped(_ sender: Any) {
         performSegue(withIdentifier: "addTaskVC", sender: nil)
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nextVC = segue.destination as! addTaskViewController
+        nextVC.previousVC = self
+    }
 }
 

@@ -13,6 +13,7 @@ class addTaskViewController: UIViewController {
     @IBOutlet weak var addTextTextField: UITextField!
     @IBOutlet weak var importantSwitch: UISwitch!
     
+    var previousVC = ViewController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +22,14 @@ class addTaskViewController: UIViewController {
     }
 
  @IBAction func addTasks(_ sender: Any) {
+    
+    // Create a task from the outlet information
+    
+    let task = Task()
+    task.name = addTextTextField.text!
+    task.important = importantSwitch.isOn
+    
+    // Add new task from arrat from previous viewController
     }
 
 
